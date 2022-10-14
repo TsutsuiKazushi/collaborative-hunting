@@ -1,1 +1,1 @@
-# chase-and-escape
+# collaborative-hunting
