@@ -44,8 +44,6 @@ class Chase1AndEscape:
                         
         reward_p = get_reward_pursuer(next_pos_p, next_pos_e)
         reward_e = get_reward_evader(next_pos_e, next_pos_p)
-        # reward_p = get_reward_pursuer(next_pos_p, next_pos_e, action_p)
-        # reward_e = get_reward_evader(next_pos_e, next_pos_p, action_e)
 
         done = get_done(next_pos_p, next_pos_e, num_step, self.max_step)
         
@@ -101,35 +99,6 @@ def get_reward_evader(abs_pos_own, abs_pos_adv):
         reward = -1
 
     return reward
-
-# def get_reward_pursuer(abs_pos_own, abs_pos_adv, action):
-#     dist = get_dist(abs_pos_own, abs_pos_adv)
-#     reward = 0
-
-#     if action <= 11:
-#         reward = -0.001
-
-#     if dist < 0.1:
-#         reward = 1        
-#     elif abs_pos_own[0] < -1 or abs_pos_own[1] < -1 or abs_pos_own[0] > 1 or abs_pos_own[1] > 1:
-#         reward = -1
-
-#     return reward
-
-
-# def get_reward_evader(abs_pos_own, abs_pos_adv, action):
-#     dist = get_dist(abs_pos_own, abs_pos_adv)
-#     reward = 0
-
-#     if action <= 11:
-#         reward = -0.001
-
-#     if dist < 0.1:
-#         reward = -1
-#     elif abs_pos_own[0] < -1 or abs_pos_own[1] < -1 or abs_pos_own[0] > 1 or abs_pos_own[1] > 1:
-#         reward = -1
-
-#     return reward
 
 
 def get_done(abs_pos_own, abs_pos_adv, num_step, max_step):

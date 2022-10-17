@@ -58,9 +58,6 @@ class Chase2AndEscape:
         reward_p1 = get_reward_pursuer(next_pos_p1, next_pos_p2, next_pos_e, self.reward_share)
         reward_p2 = get_reward_pursuer(next_pos_p2, next_pos_p1, next_pos_e, self.reward_share)
         reward_e = get_reward_evader(next_pos_e, next_pos_p1, next_pos_p2)
-        # reward_p1 = get_reward_pursuer(next_pos_p1, next_pos_p2, next_pos_e, action_p1, self.reward_share)
-        # reward_p2 = get_reward_pursuer(next_pos_p2, next_pos_p1, next_pos_e, action_p2, self.reward_share)
-        # reward_e = get_reward_evader(next_pos_e, next_pos_p1, next_pos_p2, action_e)
 
         done = get_done(next_pos_e, next_pos_p1, next_pos_p2, num_step, self.max_step)
         
@@ -159,43 +156,6 @@ def get_reward_evader(abs_pos_own, abs_pos_adv1, abs_pos_adv2):
 
     return reward
 
-
-# def get_reward_pursuer(abs_pos_own, abs_pos_mate, abs_pos_adv, action_own, reward_share):
-#     dist1 = get_dist(abs_pos_own, abs_pos_adv)
-#     dist2 = get_dist(abs_pos_mate, abs_pos_adv)
-#     reward = 0
-
-#     if action_own <= 11:
-#         reward = -0.001
-
-#     if reward_share == True:
-#         if dist1 < 0.1 or dist2 < 0.1:
-#             reward = 1
-#         elif abs_pos_own[0] < -1 or abs_pos_own[1] < -1 or abs_pos_own[0] > 1 or abs_pos_own[1] > 1:
-#             reward = -1
-#     elif reward_share == False:
-#         if dist1 < 0.1:
-#             reward = 1
-#         elif abs_pos_own[0] < -1 or abs_pos_own[1] < -1 or abs_pos_own[0] > 1 or abs_pos_own[1] > 1:
-#             reward = -1
-
-#     return reward
-
-
-# def get_reward_evader(abs_pos_own, abs_pos_adv1, abs_pos_adv2, action_own):
-#     dist1 = get_dist(abs_pos_own, abs_pos_adv1)
-#     dist2 = get_dist(abs_pos_own, abs_pos_adv2)
-#     reward = 0
-
-#     if action_own <= 11:
-#         reward = -0.001
-
-#     if dist1 < 0.1 or dist2 < 0.1:
-#         reward = -1
-#     elif abs_pos_own[0] < -1 or abs_pos_own[1] < -1 or abs_pos_own[0] > 1 or abs_pos_own[1] > 1:
-#         reward = -1
-
-#     return reward
 
 def get_done(abs_pos_own, abs_pos_adv1, abs_pos_adv2, num_step, max_step):
     dist1 = get_dist(abs_pos_own, abs_pos_adv1)
