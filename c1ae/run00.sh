@@ -1,2 +1,2 @@
 #!/bin/bash
-python -u c1ae_00.py
+python -u c1ae.py
