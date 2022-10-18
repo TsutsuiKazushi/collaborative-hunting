@@ -16,14 +16,15 @@ epsilon_end = 0.1
 epsilon_decay = 10000
 
 """ Other parameters """
-# num_episodes = 1000000
-num_episodes = 100
+num_episodes = 1000000
+# num_episodes = 100
 gamma = 0.9
 batch_size = 32
 max_step_episode = 300
-# print_interval_episode = 10000
-print_interval_episode = 10
+print_interval_episode = 10000
+# print_interval_episode = 10
 save_interval_episode = 100000
+# save_interval_episode = 100
 
 """ seed """
 seed = 0

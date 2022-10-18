@@ -10,7 +10,7 @@ Options:
     --required: 4.2, 3.6, 3.0, 2.4, or 1.8
 EOF
 )
-. utils/parse_options.sh
+. ../utils/parse_options.sh
 
 # Variables that must be specified are defined after parse_options.sh
 required=$1
