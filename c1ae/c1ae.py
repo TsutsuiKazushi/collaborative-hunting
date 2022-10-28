@@ -118,7 +118,7 @@ if __name__ == '__main__':
     speed_p = float(args.speed_p)
     speed_e = 3
     env = Chase1AndEscape(speed_pursuer=speed_p, speed_evader=speed_e, max_step=max_step_episode)
-    filename_model_p = "../model/c1ae/p_00.pth"
-    filename_model_e = "../model/c1ae/e_00.pth"
+    filename_model_p = "../model/c1ae/p_" + args.speed_p + ".pth"
+    filename_model_e = "../model/c1ae//e_" + args.speed_p + ".pth"
 
     main()
