@@ -15,7 +15,7 @@ import argparse
 def parse_option():
     """ argparse """
     parser = argparse.ArgumentParser()
-    parser.add_argument('speed_p', choices=['4.2', '3.6', '3.0', '2.4', '1.8'])
+    parser.add_argument('speed_p', choices=['3.6', '3.0', '2.4'])
 
     args = parser.parse_args()
     
