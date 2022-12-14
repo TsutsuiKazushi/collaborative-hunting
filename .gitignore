@@ -2,7 +2,7 @@
 .DS_Store
 @eaDir
 data/*
-# figures/*
+figures/*
 utils/*
 slurm-*
 *.gif
