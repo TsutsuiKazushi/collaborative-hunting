@@ -1,13 +1,12 @@
 # custom
 .DS_Store
+@eaDir
 data/*
 figures/*
 utils/*
 slurm-*
-*.pkl
 *.gif
-*main_feature.sh
-@eaDir
+*.sh
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
