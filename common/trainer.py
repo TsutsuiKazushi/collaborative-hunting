@@ -3,10 +3,6 @@ from torch import nn
 import random
 
 
-"""
-   Trainer
-"""
-
 class Trainer(object):
     def __init__(self, net, target_net, optimizer, loss_func, replay_buffer, gamma, device):
         self.net = net
