@@ -8,4 +8,4 @@
 [[biorxiv]](https://biorxiv.org/cgi/content/short/2022.10.10.511517v1)
 
 
-![architecture](https://user-images.githubusercontent.com/57206162/207560510-caa9c190-efba-420f-848f-55714df46c42.jpg)
+<img src="https://user-images.githubusercontent.com/57206162/207560510-caa9c190-efba-420f-848f-55714df46c42.jpg" width="200">
