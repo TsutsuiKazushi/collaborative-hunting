@@ -7,4 +7,4 @@
 
 [[biorxiv]](https://biorxiv.org/cgi/content/short/2022.10.10.511517v1)
 
-![image](https://github.com/TsutsuiKazushi/collaborative-hunting/files/10226328/architecture.pdf)
+
