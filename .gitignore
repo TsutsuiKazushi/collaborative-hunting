@@ -6,8 +6,8 @@ slurm-*
 *.pkl
 *.gif
 *main_feature.sh
-@eaDir/EPV_grid.csv@SynoEAStream
-@eaDir/EPV_grid.csv@SynoResource
+@eaDir
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
