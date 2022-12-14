@@ -8,7 +8,6 @@ slurm-*
 *main_feature.sh
 @eaDir
 
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
