@@ -18,6 +18,5 @@ To set up the environment, you can easily run the following command: <br>
 ## Train
 
 
-## Visualization
-![02](https://user-images.githubusercontent.com/57206162/207773326-92025354-ec69-45c6-ae7a-5317f8abc5c0.gif)
-<img src="https://user-images.githubusercontent.com/57206162/207773326-92025354-ec69-45c6-ae7a-5317f8abc5c0.gif" width="300">
+## Examlpes
+<img src="https://user-images.githubusercontent.com/57206162/207801957-0582c51c-d416-462f-9116-d3d03263fa21.gif" width="800">
