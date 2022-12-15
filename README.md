@@ -19,4 +19,4 @@ To set up the environment, you can easily run the following command: <br>
 
 
 ## Visualization
-
+![02](https://user-images.githubusercontent.com/57206162/207773326-92025354-ec69-45c6-ae7a-5317f8abc5c0.gif)
