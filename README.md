@@ -1,5 +1,5 @@
 # Collaborative hunting in artificial agents with deep reinforcement learning
-
+![](https://img.shields.io/badge/python-3.6_|_3.7-blue)
 
 > **[Collaborative hunting in artificial agents with deep reinforcement learning](https://biorxiv.org/cgi/content/short/2022.10.10.511517v1)** <br>
 > accepted by *XXXX* 2022 as an article <br>
@@ -19,11 +19,16 @@
 ### Three-predator
 <img src="https://user-images.githubusercontent.com/57206162/207836201-bd2da6d5-add5-4a1e-b5c9-f57b15095bca.gif" width="800"> <br>
 
-From left to right: Fast (indivdual, share), Equal (indivdual, share), Slow (indivdual, share)
+ From left to right: Fast (indivdual, share), Equal (indivdual, share), Slow (indivdual, share)
 
-## Environment Setup
-To set up the environment, you can easily run the following command: <br>
+## Setup
+- This repository is tested with python 3.6 and 3.7
+- To set up the environment, please run the following command: <br>
 ```pip install -r requirements.txt```
 
-## Train
+## Training
+- To run the train code, please move on the deirectory corresponding to the number of predators (```c1ae```=one-predator, ```c2ae```=two-predator, or ```c3ae```=three-predator). <br>
+- Then, please run the python file specifying the predators' movement speed (```3.6```=fast, ```3.0```=equal, or ```2.4```=slow) and whether the reward is shared (```indiv``` or ```share```), as follows: <br>
+```python c2ae.py 2.4 share```
 
+- The output files (network weights) are in the ```model``` deirectory.
