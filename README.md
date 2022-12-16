@@ -33,3 +33,7 @@ The videos are examples of predator(s) (dark blue, blue, and light blue) and pre
 ```python c2ae.py 2.4 share```
 
 - The output files (network weights) are in the ```model``` deirectory.
+
+## Author
+Kazushi Tsutsui (@TsutsuiKazushi)
+E-mail: ```k.tsutsui6@gmail.com```
