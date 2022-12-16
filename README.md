@@ -23,7 +23,7 @@ The videos are examples of predator(s) (dark blue, blue, and light blue) and pre
 
 
 ## Setup
-- This repository is tested with python 3.6 and 3.7
+- This repository was tested with python 3.6 and 3.7
 - To set up the environment, please run the following command: <br>
 ```pip install -r requirements.txt```
 
