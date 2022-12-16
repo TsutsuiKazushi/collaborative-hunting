@@ -19,7 +19,8 @@ An agent’s policy is represented by a deep neural network. An observation of t
 ### Three-predator
 <img src="https://user-images.githubusercontent.com/57206162/207836201-bd2da6d5-add5-4a1e-b5c9-f57b15095bca.gif" width="800"> <br>
 
-From left to right: Fast (indivdual, share), Equal (indivdual, share), Slow (indivdual, share)
+The videos are examples of predator(s) (dark blue, blue, and light blue) and prey (red) interactions in each experimental condition. The experimental condition was set as the number of predators (one, two, and three), relative mobility (fast, equal, and slow), and reward sharing (individual and shared), based on ecological findings. The videos are shown from left to right: fast (indivdual, shared), equal (indivdual, shared), and slow (indivdual, shared).
+
 
 ## Setup
 - This repository is tested with python 3.6 and 3.7
@@ -28,7 +29,7 @@ From left to right: Fast (indivdual, share), Equal (indivdual, share), Slow (ind
 
 ## Training
 - To run the train code, please move on the deirectory corresponding to the number of predators (```c1ae```=one-predator, ```c2ae```=two-predator, or ```c3ae```=three-predator). <br>
-- Then, please run the python file specifying the predators' movement speed (```3.6```=fast, ```3.0```=equal, or ```2.4```=slow) and whether the reward is shared (```indiv``` or ```share```), as follows: <br>
+- Then, please run the python file specifying the predators' movement speed (```3.6```=fast, ```3.0```=equal, or ```2.4```=slow) and whether the reward is shared (```indiv```=individual or ```share```=shared), as follows: <br>
 ```python c2ae.py 2.4 share```
 
 - The output files (network weights) are in the ```model``` deirectory.
