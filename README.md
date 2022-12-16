@@ -19,7 +19,7 @@ An agent’s policy is represented by a deep neural network (see Methods). An ob
 ### Three-predator
 <img src="https://user-images.githubusercontent.com/57206162/207836201-bd2da6d5-add5-4a1e-b5c9-f57b15095bca.gif" width="800"> <br>
 
- From left to right: Fast (indivdual, share), Equal (indivdual, share), Slow (indivdual, share)
+From left to right: Fast (indivdual, share), Equal (indivdual, share), Slow (indivdual, share)
 
 ## Setup
 - This repository is tested with python 3.6 and 3.7
