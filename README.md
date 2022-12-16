@@ -9,7 +9,7 @@
 
 ## Model Architecture
 <img src="https://user-images.githubusercontent.com/57206162/207561838-a177918c-19fd-439a-8cf4-9198d6334ff0.jpg" width="800">
-An agent’s policy is represented by a deep neural network (see Methods). An observation of the environment is given as input to the network. An action is sampled from the network’s output, and the agent receives a reward and the subsequent observation. The agent learns to select actions that maximizes cumulative future rewards. In this study, each agent learned its policy network independently, that is, each agent treats the other agents as part of the environment. This illustration shows a case with three predators.
+An agent’s policy is represented by a deep neural network. An observation of the environment is given as input to the network. An action is sampled from the network’s output, and the agent receives a reward and the subsequent observation. The agent learns to select actions that maximizes cumulative future rewards. In this study, each agent learned its policy network independently, that is, each agent treats the other agents as part of the environment. This illustration shows a case with three predators.
 
 ## Examlpes
 ### One-predator
