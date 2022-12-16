@@ -35,5 +35,5 @@ The videos are examples of predator(s) (dark blue, blue, and light blue) and pre
 - The output files (network weights) are in the ```model``` deirectory.
 
 ## Author
-Kazushi Tsutsui (@TsutsuiKazushi) <br>
+Kazushi Tsutsui ([@TsutsuiKazushi](https://github.com/TsutsuiKazushi)) <br>
 E-mail: ```k.tsutsui6@gmail.com```
