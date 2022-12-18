@@ -36,4 +36,4 @@ The videos are examples of predator(s) (dark blue, blue, and light blue) and pre
 
 ## Author
 Kazushi Tsutsui ([@TsutsuiKazushi](https://github.com/TsutsuiKazushi)) <br>
-E-mail: ```k.tsutsui6@gmail.com```
+E-mail: ```k.tsutsui6<at>gmail.com```
