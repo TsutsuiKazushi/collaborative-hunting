@@ -12,14 +12,11 @@
 An agent’s policy is represented by a deep neural network. An observation of the environment is given as input to the network. An action is sampled from the network’s output, and the agent receives a reward and the subsequent observation. The agent learns to select actions that maximizes cumulative future rewards. In this study, each agent learned its policy network independently, that is, each agent treats the other agents as part of the environment. This illustration shows a case with three predators.
 
 ## Examlpes
-### One-predator
-<img src="https://user-images.githubusercontent.com/57206162/207836150-91983d55-519c-4874-aa75-12f7d829043d.gif" width="800"> <br>
-### Two-predator
-<img src="https://user-images.githubusercontent.com/57206162/207836175-ca2e69e5-02fa-4a55-bf0d-ff77cf58ba29.gif" width="800"> <br>
-### Three-predator
-<img src="https://user-images.githubusercontent.com/57206162/207836201-bd2da6d5-add5-4a1e-b5c9-f57b15095bca.gif" width="800"> <br>
+<img src="https://user-images.githubusercontent.com/57206162/208328484-648f119a-3720-4eea-9dcb-288010818d50.gif" width="800"> <br>
+<img src="https://user-images.githubusercontent.com/57206162/208328488-f5dc2576-25d6-4b50-bb72-78a523138f3d.gif" width="800"> <br>
+<img src="https://user-images.githubusercontent.com/57206162/208328490-98d76850-8620-4dfe-bb1e-0291c75a8474.gif" width="800"> <br>
 
-The videos are examples of predator(s) (dark blue, blue, and light blue) and prey (red) interactions in each experimental condition. The experimental condition was set as the number of predators (one, two, and three), relative mobility (fast, equal, and slow), and reward sharing (individual and shared), based on ecological findings. The videos are shown from left to right: fast (indivdual, shared), equal (indivdual, shared), and slow (indivdual, shared).
+The videos are examples of predator(s) (dark blue, blue, and light blue) and prey (red) interactions in each experimental condition. The experimental condition was set as the number of predators (one, two, and three), relative mobility (fast, equal, and slow), and reward sharing (individual and shared), based on ecological findings.
 
 
 ## Setup
