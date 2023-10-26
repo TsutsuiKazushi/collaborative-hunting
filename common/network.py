@@ -47,3 +47,9 @@ class DuelingNetwork(nn.Module):
             with torch.no_grad():
                 action = torch.argmax(self.forward(obs.unsqueeze(0))).item()
         return action
+
+    def forward_com(self, obs):
+        feature = self.fc_common(obs)
+        feature = feature.view(feature.size(0), -1)
+
+        return feature
