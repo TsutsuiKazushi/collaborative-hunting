@@ -29,7 +29,7 @@ The videos are examples of predator(s) (dark blue, blue, and light blue) and pre
 - Then, please run the python file specifying the predators' movement speed (```3.6```=fast, ```3.0```=equal, or ```2.4```=slow) and whether the reward is shared (```indiv```=individual or ```share```=shared), as follows: <br>
 ```python c2ae.py 2.4 share```
 
-- The output files (network weights) are in the ```model``` deirectory.
+- The output files (network weights) are in the ```model``` directory.
 
 ## Data availability
 - The data and models are available in the following figshare repository. These data and models can be used to replicate the figures in the article in the ```notebooks``` directory.
