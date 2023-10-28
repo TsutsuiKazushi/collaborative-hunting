@@ -31,6 +31,12 @@ The videos are examples of predator(s) (dark blue, blue, and light blue) and pre
 
 - The output files (network weights) are in the ```model``` deirectory.
 
+## Data availability
+- The data and models are available in the following figshare repository. These data and models can be used to replicate the figures in the article in the ```notebooks``` directory.
+```bash
+Tsutsui, Kazushi; Tanaka, Ryoya; Takeda, Kazuya; Fujii, Keisuke (2023). Dataset. figshare. Dataset. https://doi.org/10.6084/m9.figshare.21184069.v3
+```
+
 ## Author
 Kazushi Tsutsui ([@TsutsuiKazushi](https://github.com/TsutsuiKazushi)) <br>
 E-mail: ```k.tsutsui6<at>gmail.com```
