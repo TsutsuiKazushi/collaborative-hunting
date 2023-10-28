@@ -34,7 +34,7 @@ The videos are examples of predator(s) (dark blue, blue, and light blue) and pre
 ## Data availability
 - The data and models are available in the following figshare repository. These data and models can be used to replicate the figures in the article in the ```notebooks``` directory.
 ```bash
-Tsutsui, Kazushi; Tanaka, Ryoya; Takeda, Kazuya; Fujii, Keisuke (2023). Dataset. figshare. Dataset. https://doi.org/10.6084/m9.figshare.21184069.v3
+https://doi.org/10.6084/m9.figshare.21184069.v3
 ```
 
 ## Author
